@@ -1,10 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AgroNext</title>
+  <meta charset="UTF-8">
+  <title>AgroNext | Smart Agro Investment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f4f7f5;
+      color:#222;
+    }
+    header{
+      background:#1b5e20;
+      color:#fff;
+      padding:20px;
+      text-align:center;
+    }
+    header h1{
+      margin:0;
+      font-size:28px;
+    }
+    nav{
+      background:#2e7d32;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:10px 0;
+    }
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .hero{
+      padding:40px 20px;
+      text-align:center;
+      background:#e8f5e9;
+    }
+    .hero h2{
+      color:#1b5e20;
+    }
+    .section{
+      padding:30px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+      gap:20px;
+    }
+    .card{
+      background:#fff;
+      border-radius:10px;
+      padding:20px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+    .card h3{
+      color:#2e7d32;
+    }
+    footer{
+      background:#1b5e20;
+      color:#fff;
+      text-align:center;
+      padding:15px;
+      margin-top:40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to AgroNext</h1>
-  <p>AgroNext is a Farming & Investment Platform.</p>
+
+<header>
+  <h1>AgroNext</h1>
+  <p>Smart Agro Investment Platform</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Projects</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+  <h2>Welcome to AgroNext</h2>
+  <p>Invest smartly in agriculture and grow with nature.</p>
+</div>
+
+<div class="section">
+  <h2 style="text-align:center;">Our Agro Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Cow Farming</h3>
+      <p>Profitable dairy farming investment.</p>
+    </div>
+    <div class="card">
+      <h3>Poultry Farming</h3>
+      <p>High demand poultry business model.</p>
+    </div>
+    <div class="card">
+      <h3>Goat Farming</h3>
+      <p>Low risk, high return goat farming.</p>
+    </div>
+    <div class="card">
+      <h3>Fish Farming</h3>
+      <p>Sustainable and fast growing fish projects.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 AgroNext. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
